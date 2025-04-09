@@ -39,7 +39,7 @@ def insert_url_to_user_dataset(new_url, filepath=USER_DATASET):
     existing_urls = load_dataset(filepath)
 
     if new_url in existing_urls:
-        print("ℹ️ This URL already exists in the user-submitted dataset.")
+        print("This URL already exists in the user-submitted dataset.")
         return
 
     df_new = pd.DataFrame([[new_url]], columns=['url'])
@@ -53,7 +53,7 @@ def insert_url_to_user_dataset(new_url, filepath=USER_DATASET):
     print(f"URL added to '{filepath}'.")
 
 def check_phishing_url():
-    print("🔍 Phishing URL Detector (Local + User + GitHub Feed)")
+    print(" Phishing URL Detector (Local + User + GitHub Feed)")
     user_url = input("Enter a suspicious URL: ").strip().lower()
 
     print("\n[+] Loading local phishing URLs...")
