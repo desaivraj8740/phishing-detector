@@ -1,10 +1,13 @@
-##🚀 Features
-Check if a URL is malicious using a local + user-defined + OpenPhish dataset
+# 🛡️ Phishing URL Detector
 
-Insert new suspicious URLs into the user dataset for future reference
+A simple Python-based phishing URL detection tool that checks URLs against known malicious datasets from local files, user submissions, and the OpenPhish GitHub feed.
 
-CLI-based interactive interface
+---
 
-Uses users-link.csv to store user-submitted phishing URLs
+## 🛠 Installation
 
-##
+### Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
