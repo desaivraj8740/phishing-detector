@@ -21,6 +21,8 @@ Insert a phishing URL – Adds a known phishing URL into the local dataset (user
 ### Clone the repository
 
 ```bash
+pip install requests
 git clone https://github.com/desaivraj8740/phishing-detector.git
 cd phishing-detector
 python3 phish.py
+```
