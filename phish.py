@@ -50,7 +50,7 @@ def insert_url_to_user_dataset(new_url, filepath=USER_DATASET):
     else:
         df_new.to_csv(filepath, mode='a', header=False, index=False)
 
-    print(f"✅ URL added to '{filepath}'.")
+    print(f"URL added to '{filepath}'.")
 
 def check_phishing_url():
     print("🔍 Phishing URL Detector (Local + User + GitHub Feed)")
@@ -69,9 +69,9 @@ def check_phishing_url():
     print(f"[✓] Total URLs loaded: {len(all_urls)}\n")
 
     if user_url in all_urls:
-        print("🚨 ALERT: This URL is malicious! Found in a known dataset.")
+        print(" ALERT: This URL is malicious! Found in a known dataset.")
     else:
-        print("✅ SAFE: This URL was not found in known phishing datasets.")
+        print("SAFE: This URL was not found in known phishing datasets.")
 
 def main():
     print("📌 What would you like to do?")
