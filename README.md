@@ -12,7 +12,3 @@ A simple Python-based phishing URL detection tool that checks URLs against known
 git clone https://github.com/desaivraj8740/phishing-detector.git
 cd phishing-detector
 
-
-'''
-### Run File
-python3 phish.py
