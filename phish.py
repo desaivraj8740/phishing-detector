@@ -74,7 +74,7 @@ def check_phishing_url():
         print("SAFE: This URL was not found in known phishing datasets.")
 
 def main():
-    print("📌 What would you like to do?")
+    print("What would you like to do?")
     print("1. Check a suspicious URL")
     print("2. Insert a phishing URL into the user dataset")
     choice = input("Enter 1 or 2: ").strip()
